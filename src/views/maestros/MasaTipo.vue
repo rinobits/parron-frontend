@@ -1,6 +1,6 @@
 <template>
   <div class="masatipo">
-    <Masatipo/>
+    <MasaTipo/>
   </div>
 </template>
 

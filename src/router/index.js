@@ -11,8 +11,8 @@ Vue.use(VueRouter);
     {path: '/',             component: Home},
     {path: '/maestros',     component: Maestros,
       children: [
-        {path:'masasabor',  component: () => import(/* webpackChunkName: "masasabor" */ '../views/maestros/MasaSabor')},
         {path:'masatipo',   component: () => import(/* webpackChunkName: "masatipo" */  '../views/maestros/MasaTipo')},
+        {path:'masasabor',  component: () => import(/* webpackChunkName: "masasabor" */ '../views/maestros/MasaSabor')},
         {path:'tortasabor', component: () => import(/* webpackChunkName: "sabor" */     '../views/maestros/TortaSabor')},
         {path:'tamano',     component: () => import(/* webpackChunkName: "tamano" */    '../views/maestros/Tamano')},
         {path:'torta',      component: () => import(/* webpackChunkName: "torta" */     '../views/maestros/Torta')},

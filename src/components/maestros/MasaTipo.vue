@@ -15,5 +15,5 @@
     };
 </script>
 <style scoped>
-h1{font-size: 400px;}
+h1{font-size: 40px;}
 </style>
