@@ -9,7 +9,6 @@
 import Tamano from '@/components/maestros/Tamano.vue'
 
 export default {
-  name: 'Tamano',
   components: {
     Tamano
   }

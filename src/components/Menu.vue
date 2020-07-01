@@ -130,10 +130,7 @@ export default {
     }
     #routerview{
         grid-area:routerview;
-        justify-self: start;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+
     }
     .slide-fade-enter-active {
       transition: all .3s ease;

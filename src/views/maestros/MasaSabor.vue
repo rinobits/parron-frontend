@@ -1,17 +1,11 @@
 <template>
   <div class="masasabor">
-    <masasabor/>
+    <MasaSabor/>
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import MasaSabor from '@/components/maestros/MasaSabor.vue'
-
-export default {
-  name: 'MasaSabor',
-  components: {
-    MasaSabor
+  import MasaSabor from '@/components/maestros/MasaSabor.vue'
+  export default {
+    components: { MasaSabor }
   }
-}
 </script>

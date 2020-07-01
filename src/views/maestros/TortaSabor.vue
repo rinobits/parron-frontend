@@ -1,6 +1,6 @@
 <template>
   <div class="tortasabor">
-    <tortasabor/>
+    <TortaSabor/>
   </div>
 </template>
 
@@ -9,7 +9,6 @@
 import TortaSabor from '@/components/maestros/TortaSabor.vue'
 
 export default {
-  name: 'MasaSabor',
   components: {
     TortaSabor
   }

@@ -39,10 +39,10 @@ export default {
   font-weight: bolder;
   opacity: 0.8;
   align-content: center;
-  margin-left:-50px;
+  text-align: center;
   font-family: Kiona;
   background-color: rgba(149, 245, 245, 0.541);
-  box-shadow: 0px 0px 6px 7px rgba(3, 4, 54, 0.459);
+  box-shadow: 0px 0px 6px 7px rgba(126, 59, 202, 0.3);
   margin-bottom: 20px;
 }
 </style>
